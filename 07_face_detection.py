@@ -20,6 +20,7 @@ while True:
 
     for (x,y,w,h) in faces:
         cv2.rectangle(img ,(x,y), (x+w,y+h), (0,255,0), 2)
+        cv2.putText(img, "Human Being", (x,y), cv2.FONT_HERSHEY_COMPLEX,1, (255,146,0), 3)
 
     cv2.imshow("face",img)
 
