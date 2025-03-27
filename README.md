@@ -1,4 +1,4 @@
-# OpenCV-Bootcamp
+# OpenCV-Tutorial-Monash
 
 STEP 01- Create a conda environment after creating the repository
 
